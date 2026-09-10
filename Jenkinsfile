@@ -7,7 +7,7 @@ node {
         try {
            //block
            echo 'Starting the test'
-           //sh 'exit 1'
+           sh 'exit 1'
            echo 'Test succesful'
         } catch (Exception e) {
             //commands
